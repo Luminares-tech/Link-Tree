@@ -21,15 +21,19 @@ $(function(){
 
             botoes.css( "background-color" , "black" );
             botoes.css( "color" , "white" );
-
+            fundo.css( "background-image", "url('Recursos/IMG/Fundo3.jpg.jpg')");
+            titulo.css( "color" , "black");
+            subtitulo.css( "color" , "black");
             modoEscuro = true;
 
 
         }else{
 
-             botoes.css( "background-color" , "white" );
+            botoes.css( "background-color" , "white" );
             botoes.css( "color" , "black" );
-
+            fundo.css( "background-image" , "url('Recursos/IMG/fundoceu.jpg')");
+            titulo.css("color" , "white");
+            subtitulo.css( "color" , "white")
             modoEscuro = false;
 
         }
